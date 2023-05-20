@@ -1,0 +1,16 @@
+body {
+    background-color: #eee;
+    text-align: center;
+}
+
+
+.content-block{
+    border: 2px solid rgba(224, 148, 5, 0.767);
+    background-color: rgba(255, 205, 112, 0.527);
+    width: 300px;
+    margin: auto;
+    margin-top: 300px auto;
+}
+
+
+
