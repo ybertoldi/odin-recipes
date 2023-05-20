@@ -1,8 +1,15 @@
+/* general */
+
 body {
     background-color: #f5ffed;
+}
+
+.centered{
     text-align: center;
     margin-top: 100px;
 }
+
+/* home page */
 
 #mestre{
     padding-top: 0px;
@@ -17,6 +24,7 @@ body {
     padding-inline: 50px;
     margin: auto;
 }
+
 
 .content-block div{
     font-size: 20px;
@@ -35,3 +43,37 @@ body {
 .content-block div:hover{
     background-color: #fdffd1;
 }
+
+
+/* recipe pages */
+
+.recipe *{
+    width: 600px;
+    margin: auto;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.recipe-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: auto;
+}
+
+.description {
+    display: block;
+    width: 600px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.tutorial {
+    margin-top: 25px;
+}
+
+
