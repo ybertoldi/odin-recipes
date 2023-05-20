@@ -1,16 +1,37 @@
 body {
-    background-color: #eee;
+    background-color: #f5ffed;
     text-align: center;
+    margin-top: 100px;
 }
 
+#mestre{
+    padding-top: 0px;
+    width: 300px;
+    height: auto;
+}
 
 .content-block{
-    border: 2px solid rgba(224, 148, 5, 0.767);
-    background-color: rgba(255, 205, 112, 0.527);
+    border: 2px solid #ffebbb;
+    background-color: #fdffcd;
     width: 300px;
+    padding-inline: 50px;
     margin: auto;
-    margin-top: 300px auto;
 }
 
+.content-block div{
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #f9fadb;
+    border: solid #ffebbb;
+}
 
+.content-block a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
 
+.content-block div:hover{
+    background-color: #fdffd1;
+}
